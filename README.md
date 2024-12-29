@@ -53,13 +53,16 @@ This tool is designed to enhance and simplify the use of AutoRecon, a reconnaiss
    ```
 
 2. **Login:** Enter the correct password to access the tool.
+   ```bash
+   Default: securepass
+   ```
 
-3. **Main Menu Options:**
+4. **Main Menu Options:**
    - Run a new AutoRecon scan.
    - Start the web server to view results.
    - Exit the tool.
 
-4. **Web Interface:**
+5. **Web Interface:**
    - Start the web server from the menu.
    - Open a browser and navigate to `http://127.0.0.1:5000`.
 
