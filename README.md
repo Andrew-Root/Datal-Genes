@@ -79,6 +79,25 @@ The tool dynamically generates HTML templates stored in a `templates` directory:
 
 ---
 
+## API Endpoints
+
+### Home Page
+- **Endpoint**: `GET /`
+- **Description**: Displays an HTML page listing all AutoRecon reports.
+- **Behavior**:
+  - Scans the `results` directory for available reports.
+  - Renders a Bootstrap-styled page listing the reports.
+  - Shows a notification if no reports are found.
+
+### Serve Specific Report
+- **Endpoint**: `GET /reports/<path:filename>`
+- **Description**: Serves a specific report file for download or viewing.
+- **Behavior**:
+  - Fetches the requested file from the `results` directory.
+  - Requires a valid `filename` as a parameter.
+
+---
+
 ## Configuration
 
 ### Modify Password
